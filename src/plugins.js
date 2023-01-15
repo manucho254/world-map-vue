@@ -1,8 +1,8 @@
-import worldMapComponent from '@/components/worldMapComponent'
+import worldMapComponent from "@/components/worldMapComponent";
 
 const myPlugin = {
   install(Vue) {
-    Vue.component( "worldMap", worldMapComponent)
+    Vue.component("worldMap", worldMapComponent);
   },
 };
 
